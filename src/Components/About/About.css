@@ -1,5 +1,4 @@
 .about {
-  border: 1px solid;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,14 +36,12 @@
   margin-bottom: 5vw;
 }
 .card_div {
-  /* border: 1px solid; */
   width: 70vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .card {
-  /* border: 1px solid white; */
   width: 28vw;
   height: 28vw;
   display: flex;
