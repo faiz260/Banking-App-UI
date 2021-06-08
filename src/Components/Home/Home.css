@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Saira+Stencil+One&display=swap");
+.home {
+  border: 1px solid;
+  display: flex;
+}
+.left {
+  width: 40vw;
+  height: 54vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 5vw;
+}
+.title_vector {
+  width: 10vw;
+}
+.punch_line {
+  font-size: 4vw;
+  margin-top: 5vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+}
+.home_text {
+  font-size: 2vw;
+  margin-top: 3vw;
+  line-height: 3vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+}
+.left > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5vw;
+}
+.appstore {
+  width: 12vw;
+}
+.googlePlay {
+  width: 14vw;
+}
+.right {
+  width: 60vw;
+  height: 56vw;
+  background: #0055ff;
+  z-index: -1;
+}
+.nav_ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3.5vw;
+}
+.nav_link {
+  list-style: none;
+  font-family: Poppins;
+}
+.down_arrow {
+  width: 1.2vw;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2vw;
+}
+.dropbtn {
+  font-size: 1.2vw;
+  color: white;
+  background: #0055ff;
+  border: 0px;
+}
+.nav_link_span {
+  background-color: white;
+  color: #0055ff;
+  width: 10vw;
+  height: 3vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_link_span > a {
+  color: #0055ff;
+}
+.mobile_img {
+  width: 60vw;
+  height: 51vw;
+  margin-left: -5vw;
+  z-index: 1;
+}
