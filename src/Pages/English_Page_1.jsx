@@ -4,6 +4,7 @@ import About from "../Components/About/About";
 import Why from "../Components/Why/Why";
 import Features from "../Components/Features/Features";
 import Download from "../Components/Download/Download";
+import Footer from "../Components/Footer/Footer";
 
 function English_Page_1() {
   return (
@@ -13,6 +14,7 @@ function English_Page_1() {
       <Why />
       <Features />
       <Download />
+      <Footer />
     </div>
   );
 }
