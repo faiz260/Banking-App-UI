@@ -3,6 +3,7 @@ import Home from "../Components/Home/Home";
 import About from "../Components/About/About";
 import Why from "../Components/Why/Why";
 import Features from "../Components/Features/Features";
+import Download from "../Components/Download/Download";
 
 function English_Page_1() {
   return (
@@ -11,6 +12,7 @@ function English_Page_1() {
       <About />
       <Why />
       <Features />
+      <Download />
     </div>
   );
 }

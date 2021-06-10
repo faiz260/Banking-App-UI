@@ -1,5 +1,4 @@
 .features {
-  border: 1px solid;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +25,6 @@
   margin-bottom: 1.5vw;
 }
 .features_button {
-  border: 1px solid;
   width: 18vw;
   height: 4.5vw;
   display: flex;
